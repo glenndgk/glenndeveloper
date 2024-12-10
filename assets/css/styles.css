@@ -425,28 +425,25 @@ svg {
 
 /*============ PROJECTS RECENT ===========*/
 
-.projects section_recent {
+.projects__container_recent {
     background-color: var(--container-color);
-  }
-  
-  .projects__container_recent {
     row-gap: 2rem;
     justify-content: center;
     padding-block: 1rem;
-  }
-  
-  .projects__card_recent {
+}
+
+.projects__card_recent {
     position: relative;
     border-radius: 1rem;
     overflow: hidden;
-  }
-  
-  .projects__img_recent {
+}
+
+.projects__img_recent {
     width: 100%;
     height: 100%;
-  }
-  
-  .projects__modal_recent {
+}
+
+.projects__modal_recent {
     position: absolute;
     left: 0;
     bottom: -100%;
@@ -463,38 +460,38 @@ svg {
     align-items: center;
     justify-content: center;
     transition: bottom .4s;
-  }
-  
-  .projects__subtitle_recent, 
-  .projects__button_recent {
+}
+
+.projects__subtitle_recent, 
+.projects__button_recent {
     color: var(--title-color);
     font-size: var(--small-font-size);
-  }
-  
-  .projects__subtitle_recent {
+}
+
+.projects__subtitle_recent {
     display: block;
     margin-bottom: .25rem;
-  }
-  
-  .projects__title_recent {
+}
+
+.projects__title_recent {
     font-size: var(--h2-font-size);
     margin-bottom: .75rem;
-  }
-  
-  .projects__button_recent {
+}
+
+.projects__button_recent {
     display: flex;
     align-items: center;
     column-gap: .5rem;
     font-weight: var(--font-medium);
-  }
-  
-  .projects__button_recent i {
+}
+
+.projects__button_recent i {
     font-size: 1.25rem;
-  }
-  
-  .projects__card_recent:hover .projects__modal {
+}
+
+.projects__card_recent:hover .projects__modal_recent {
     bottom: 0;
-  }
+}
 
 /*=============== PROJECTS ===============*/
 .projects {
